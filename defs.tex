@@ -1,0 +1,46 @@
+%\define\htmlspecial#1{\special{html:<#1>}}
+%\define\href#1#2{\htmlspecial{a href="#1"}#2\htmlspecial{/a}}
+%\define\name#1#2{\htmlspecial{a name="#1"}#2\htmlspecial{/a}}
+
+\newcommand{\htmlspecial}[1]{\special{html:<#1>}}
+\newcommand{\href}[2]{\htmlspecial{a href="#1"}#2\htmlspecial{/a}}
+\newcommand{\name}[2]{\htmlspecial{a name="#1"}#2\htmlspecial{/a}}
+\newcommand{\pard}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\secpard}[2]{\frac{\partial^{2} #1}{\partial #2^{2}}}
+\newcommand{\diff}[2]{\frac{d #1}{d #2}}
+\newcommand{\secdiff}[2]{\frac{d^{2} #1}{d #2^{2}}}
+\newcommand{\degr}{$^\circ$}
+\newcommand{\dE}{$^\circ$E}
+\newcommand{\dC}{$^\circ$C}
+\newcommand{\dW}{$^\circ$W}
+\newcommand{\dN}{$^\circ$N}
+\newcommand{\dS}{$^\circ$S}
+\newcommand{\ps}{s$^{-1}$}
+\newcommand{\pmc}{m$^{-3}$}
+\newcommand{\e}[1]{\times10^{#1}}
+\newcommand{\tauindex}{$\tau_{0-1400}$ }
+
+% Units:
+\newcommand{\Sv}{\mbox{ $\times 10^{6}$~m$^{3}$~s$^{-1}$}}
+\newcommand{\sv}{\mbox{ $\times 10^{6}$m$^{3}$~s$^{-1}$}}
+\newcommand{\uSv}{\mbox{$ 10^{6}$~m$^{3}$~s$^{-1}$}}
+\newcommand{\ms}{\mbox{ m s$^{-1}$}}
+\newcommand{\cms}{\mbox{ cm s$^{-1}$}}
+\newcommand{\s}{\mbox{ s$^{-1}$}}
+\newcommand{\uDensity}{\mbox{ kg m$^{-3}$}}
+\newcommand{\uMass}{\mbox{$\times 10^{9}$~kg s$^{-1}$}}
+\newcommand{\uGamma}{\mbox{ kg m$^{-3}$}}
+\newcommand{\uPStress}{\mbox{ m$^2$ s$^{-2}$}}  %pseudo-stress
+\newcommand{\dynm}{\mbox{ dyn m}}
+\newcommand{\dyncm}{\mbox{dyn cm}}
+\newcommand{\dbar}{\mbox{dbar}}
+\newcommand{\mmolkg}{\mbox{$\mu$mol~kg$^{-1}$}}
+\newcommand{\mmolk}{\mbox{$\mu$mol~kg$^{-1}$}}
+\newcommand{\mmoll}{\mbox{$\mu$mol~l$^{-1}$}}
+\newcommand{\pv}{\mbox{ m$^{-1}$ s$^{-1}$}}
+
+\hyphenation{ref-er-ence cy-clonic re-cir-cu-la-tion oc-curs}
+\hyphenation{geo-strophic iso-pycnal SUR-TRO-PAC PROP-PAC}
+\hyphenation{baro-tropic baro-clinic}
+\hyphenation{sub-tropi-cal}
+\hyphenation{Con-duc-tivity-Temperature-Depth Fig-ure Fig-ures Sec-tion}
